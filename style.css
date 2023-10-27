@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+body {
+    min-width: 1440px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding: 0 90px 0 150px;
+}
+
+.header {
+    height: 870px;
+    width: 1200px;
+    background-image: url(traveller.png);
+    background-size: 784px 764px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
