@@ -11,14 +11,35 @@ body {
 body {
     min-width: 1440px;
     font-family: 'Open Sans', Arial, sans-serif;
-    padding: 0 90px 0 150px;
 }
 
 .header {
     height: 870px;
     width: 1200px;
-    background-image: url(traveller.png);
-    background-size: 784px 764px;
+    background-image: url(images/decore.png);
+    background-position: top -100px left -550px;
+    background-repeat: no-repeat;
+    background-size: 1922px 872px;
+    padding: 0 90px 0 150px;
+}
+
+.nav-top {
+    height: 105px;
+    padding-top: 47px;
+}
+
+.logo {
+    height: 34px;
+    background-image: url(images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 115px;
+}
+
+.hero-content {
+    height: 764px;
+    background-image: url(images/traveller.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
