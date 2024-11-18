@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Poppins;
+  src:
+    url(./poppinsregular.woff2) format('woff2'),
+    url(./poppinsregular.woff) format('woff'),
+    url(./poppinsregular.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src:
+    url(./poppinsmedium.woff2) format('woff2'),
+    url(./poppinsmedium.woff) format('woff'),
+    url(./poppinsmedium.ttf) format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src:
+    url(./poppinssemibold.woff2) format('woff2'),
+    url(./poppinssemibold.woff) format('woff'),
+    url(./poppinssemibold.ttf) format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src:
+    url(./poppinsbold.woff2) format('woff2'),
+    url(./poppinsbold.woff) format('woff'),
+    url(./poppinsbold.ttf) format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src:
+    url(./montserratregular.woff2) format('woff2'),
+    url(./montserratregular.woff) format('woff'),
+    url(./montserratregular.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Volkhov;
+  src:
+    url(./volkhovbold.woff2) format('woff2'),
+    url(./poppinsbold.woff) format('woff'),
+    url(./poppinsbold.ttf) format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
