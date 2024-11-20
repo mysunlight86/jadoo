@@ -1,3 +1,14 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
   padding: 47px 91px 148px;
+}
+
+.top-nav__logo {
+  display: block;
+  width: 115px;
+}
+.top-nav__logo-image {
+  width: 100%;
 }
