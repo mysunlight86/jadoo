@@ -5,10 +5,31 @@
   padding: 47px 91px 148px;
 }
 
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .top-nav__logo {
   display: block;
   width: 115px;
 }
 .top-nav__logo-image {
   width: 100%;
+}
+
+.top-nav__menu-list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.top-nav__menu-list-item {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.top-nav__menu-link {
+  text-decoration: none;
+  color: #212832;
 }
