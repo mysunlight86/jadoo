@@ -67,3 +67,24 @@
   font-size: 20px;
   text-transform: uppercase;
 }
+
+.description__heading {
+  position: relative;
+  color: #181e4b;
+  font-family: Volkhov;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 89px;
+  letter-spacing: -4px;
+}
+
+.accent {
+  position: absolute;
+  top: 69px;
+  left: 243px;
+  z-index: -1;
+  width: 385px;
+  height: 12px;
+  background-image: url(../images/shadow.svg);
+  background-repeat: no-repeat;
+}
