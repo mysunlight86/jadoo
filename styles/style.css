@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 18px;
-  padding: 47px 91px 148px;
+  padding: 47px 91px 0 148px;
 }
 
 .top-nav {
