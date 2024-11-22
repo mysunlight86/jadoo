@@ -48,3 +48,8 @@
   border: 1px solid #212832;
   border-radius: 5px;
 }
+
+.top-nav__select {
+  border: none;
+  border-color: transparent;
+}
