@@ -8,6 +8,7 @@
 .top-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .top-nav__logo {
@@ -16,6 +17,12 @@
 }
 .top-nav__logo-image {
   width: 100%;
+}
+
+.top-nav__menu {
+  display: flex;
+  gap: 68px;
+  align-items: center;
 }
 
 .top-nav__menu-list {
@@ -32,4 +39,12 @@
 .top-nav__menu-link {
   text-decoration: none;
   color: #212832;
+}
+
+.top-nav__button {
+  font-size: 17px;
+  background-color: transparent;
+  padding: 9px 21px;
+  border: 1px solid #212832;
+  border-radius: 5px;
 }
