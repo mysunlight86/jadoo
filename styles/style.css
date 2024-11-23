@@ -59,6 +59,10 @@
   flex-direction: column;
   gap: 30px;
   padding: 112px 653px 117px 0;
+  background-image: url(../images/traveller.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
 }
 
 .description__tagline {
@@ -87,4 +91,12 @@
   height: 12px;
   background-image: url(../images/shadow.svg);
   background-repeat: no-repeat;
+}
+
+.description__text {
+  color: #5e6282;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  max-width: 447px;
 }
