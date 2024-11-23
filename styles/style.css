@@ -144,3 +144,31 @@
   border-radius: 50%;
   box-shadow: 0 1px 15px 7px rgba(223, 105, 81, 0.2);
 }
+
+.services {
+  padding: 97px 58px 123px 154px;
+}
+
+.destinations {
+  padding: 0 165px 186px 173px;
+}
+
+.book-a-trip {
+  padding: 0 140px 200px 186px;
+}
+
+.testimonials {
+  padding: 0 89px 96px 186px;
+}
+
+.logos {
+  padding: 0 181px 111px 186px;
+}
+
+.subscribe {
+  padding: 0 36px 96px 48px;
+}
+
+.footer {
+  padding: 0 194px 79px 186px;
+}
