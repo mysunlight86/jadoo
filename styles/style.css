@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 18px;
   padding: 47px 91px 0 148px;
+  background-image: url(../images/decore.png);
+  background-repeat: no-repeat;
 }
 
 .top-nav {
@@ -51,7 +53,7 @@
 
 .top-nav__select {
   border: none;
-  border-color: transparent;
+  background-color: transparent;
 }
 
 .description {
@@ -94,9 +96,51 @@
 }
 
 .description__text {
+  max-width: 447px;
   color: #5e6282;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
-  max-width: 447px;
+}
+
+.description__buttons-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 379px;
+  list-style: none;
+}
+
+.description__button-item {
+  width: 170px;
+}
+
+.description__button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.description__button_more {
+  border: none;
+  border-radius: 10px;
+  padding: 18px 26px;
+  box-shadow: 0 1px 15px 7px rgba(241, 165, 1, 0.2);
+  background-color: #f1a501;
+}
+
+.description__button_demo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 21px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.description__button-image {
+  width: 52px;
+  border-radius: 50%;
+  box-shadow: 0 1px 15px 7px rgba(223, 105, 81, 0.2);
 }
