@@ -150,6 +150,72 @@
   padding: 97px 58px 123px 154px;
 }
 
+.subheading {
+  color: #5e6282;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.subheading_center {
+  text-align: center;
+}
+
+.heading {
+  color: #14183e;
+  font-family: Volkhov, serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.heading_center {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 167px 1fr 1fr;
+  grid-template-areas:
+    "service-image service-image service-image service-image"
+    "service-heading service-heading service-heading service-heading"
+    "service-text service-text service-text service-text";
+  margin-top: 65px;
+  padding-right: 139px;
+  list-style: none;
+}
+
+.services__item {
+  text-align: center;
+}
+
+.services__link {
+  text-decoration: none;
+}
+
+.services__item-image {
+  grid-area: service-image;
+  height: 167px;
+}
+
+.services__item-heading {
+  grid-area: service-heading;
+  color: #1e1d4c;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+}
+
+.services__item-text {
+  grid-area: service-text;
+  color: #5e6282;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
 .destinations {
   padding: 0 165px 186px 173px;
 }
