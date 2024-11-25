@@ -198,6 +198,28 @@
 .services__item-image {
   grid-area: service-image;
   height: 167px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services__item-image_weather {
+  background-image: url(../images/weather.png);
+  background-size: 92px;
+}
+
+.services__item-image_flights {
+  background-image: url(../images/flights.png);
+  background-size: 167px;
+}
+
+.services__item-image_events {
+  background-image: url(../images/events.png);
+  background-size: 67px;
+}
+
+.services__item-image_customization {
+  background-image: url(../images/customization.png);
+  background-size: 77px;
 }
 
 .services__item-heading {
