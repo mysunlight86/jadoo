@@ -183,7 +183,7 @@
     "service-heading service-heading service-heading service-heading"
     "service-text service-text service-text service-text";
   margin-top: 65px;
-  padding-right: 139px;
+  padding-right: 100px;
   list-style: none;
 }
 
@@ -193,6 +193,8 @@
 
 .services__link {
   text-decoration: none;
+  display: block;
+  padding: 0 37px 45px 37px;
 }
 
 .services__item-image {
@@ -236,6 +238,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  width: 190px;
+  margin: 15px auto 0;
 }
 
 .destinations {
