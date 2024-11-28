@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 18px;
   padding: 47px 91px 0 148px;
-  background-image: url(../images/decore.png);
+  background-image: url(../images/header-decore.png);
   background-repeat: no-repeat;
 }
 
@@ -172,6 +172,13 @@
 .heading_center {
   margin-top: 10px;
   text-align: center;
+}
+
+.services {
+  background-image: url(../images/services-stars.png);
+  background-repeat: no-repeat;
+  background-position: top 97px right 58px;
+  background-size: 153px, auto, contain;
 }
 
 .services__list {
