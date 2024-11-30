@@ -184,11 +184,6 @@
 .services__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 167px 1fr 1fr;
-  grid-template-areas:
-    "service-image service-image service-image service-image"
-    "service-heading service-heading service-heading service-heading"
-    "service-text service-text service-text service-text";
   margin-top: 65px;
   padding-right: 100px;
   list-style: none;
@@ -217,7 +212,6 @@
 }
 
 .services__item-image {
-  grid-area: service-image;
   height: 167px;
   background-repeat: no-repeat;
   background-position: center;
@@ -244,7 +238,6 @@
 }
 
 .services__item-heading {
-  grid-area: service-heading;
   color: #1e1d4c;
   font-weight: 600;
   font-size: 20px;
@@ -252,7 +245,6 @@
 }
 
 .services__item-text {
-  grid-area: service-text;
   width: 190px;
   margin: 15px auto 0;
   color: #5e6282;
