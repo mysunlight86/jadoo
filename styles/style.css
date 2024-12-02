@@ -376,7 +376,17 @@
 }
 
 .book-a-trip {
+  display: flex;
+  justify-content: space-between;
   padding: 0 140px 200px 186px;
+}
+
+.book-a-trip__left-column {
+  max-width: 511px;
+}
+
+.book-a-trip__right-column {
+  max-width: 485px;
 }
 
 .testimonials {
