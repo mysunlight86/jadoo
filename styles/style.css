@@ -385,6 +385,11 @@
   max-width: 511px;
 }
 
+.heading_in-book-a-trip {
+  margin-top: 15px;
+  margin-bottom: 31px;
+}
+
 .book-a-trip__right-column {
   max-width: 485px;
 }
