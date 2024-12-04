@@ -390,6 +390,28 @@
   margin-bottom: 31px;
 }
 
+.book-a-trip__steps {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.book-a-trip__step {
+  max-width: 395px;
+  color: #5e6282;
+  font-size: 16px;
+  line-height: 19.92px;
+}
+
+.book-a-trip__step-heading {
+  font-weight: 700;
+}
+
+.book-a-trip__step-text {
+  margin-top: 4px;
+}
+
 .book-a-trip__right-column {
   max-width: 485px;
 }
