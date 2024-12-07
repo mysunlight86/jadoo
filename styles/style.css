@@ -404,6 +404,31 @@
   line-height: 19.92px;
 }
 
+.book-a-trip__step::before {
+  content: "";
+  display: block;
+  width: 47px;
+  height: 48px;
+  border-radius: 13px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.book-a-trip__step_image-choose::before {
+  background-color: #f0bb1f;
+  background-image: url(../images/choose-destination.png);
+}
+
+.book-a-trip__step_image-make::before {
+  background-color: #f15a2b;
+  background-image: url(../images/make-payment.png);
+}
+
+.book-a-trip__step_image-reach::before {
+  background-color: #006380;
+  background-image: url(../images/reach-airport.png);
+}
+
 .book-a-trip__step-heading {
   font-weight: 700;
 }
