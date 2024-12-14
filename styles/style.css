@@ -394,7 +394,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 39px;
 }
 
 .book-a-trip__step {
@@ -402,6 +402,10 @@
   color: #5e6282;
   font-size: 16px;
   line-height: 19.92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 .book-a-trip__step::before {
@@ -412,6 +416,10 @@
   border-radius: 13px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.book-a-trip__step-info {
+  max-width: 327px;
 }
 
 .book-a-trip__step_image-choose::before {
