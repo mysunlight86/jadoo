@@ -391,21 +391,21 @@
 }
 
 .book-a-trip__steps {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 39px;
+  list-style: none;
 }
 
 .book-a-trip__step {
-  max-width: 395px;
-  color: #5e6282;
-  font-size: 16px;
-  line-height: 19.92px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  max-width: 395px;
+  color: #5e6282;
+  font-size: 16px;
+  line-height: 19.92px;
 }
 
 .book-a-trip__step::before {
@@ -447,6 +447,35 @@
 
 .book-a-trip__right-column {
   max-width: 485px;
+  padding: 76px 115px 16px 0;
+}
+
+.book-a-trip__card {
+  border-radius: 26px;
+  padding: 20px 24px 31px 25px;
+  font-weight: 500;
+  line-height: 1.24;
+  background-color: #fff;
+}
+
+.book-a-trip__card-heading {
+  margin-top: 26px;
+  margin-bottom: 13px;
+  color: #080809;
+  font-size: 18px;
+  letter-spacing: 1.5;
+}
+
+.book-a-trip__card-info {
+  display: flex;
+  gap: 10px;
+  color: #84829a;
+  font-size: 16px;
+}
+
+.book-a-trip__card-date {
+  border-right: 1px solid #84829a;
+  padding: 1px 3px 1px 0;
 }
 
 .testimonials {
