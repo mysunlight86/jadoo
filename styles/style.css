@@ -478,6 +478,35 @@
   padding: 1px 3px 1px 0;
 }
 
+.book-a-trip__card-options {
+  display: flex;
+  gap: 15px;
+  margin-top: 21px;
+  margin-bottom: 29px;
+  list-style-type: none;
+}
+
+.book-a-trip__card-option {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.book-a-trip__card-option_leaf {
+  background-image: url(../images/leaf.png);
+}
+
+.book-a-trip__card-option_map {
+  background-image: url(../images/map.png);
+}
+
+.book-a-trip__card-option_send {
+  background-image: url(../images/send.png);
+}
+
 .testimonials {
   padding: 0 89px 96px 186px;
 }
