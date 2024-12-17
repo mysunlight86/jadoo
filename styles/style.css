@@ -446,6 +446,7 @@
 }
 
 .book-a-trip__right-column {
+  position: relative;
   max-width: 485px;
   padding: 76px 115px 16px 0;
 }
@@ -532,6 +533,93 @@
   height: 18px;
   margin-left: 135px;
   background-image: url(../images/heart.png);
+}
+
+.book-a-trip__tooltip {
+  position: absolute;
+  right: 0;
+  bottom: 52px;
+  width: 263px;
+  padding: 16px 25px 22px 20px;
+}
+
+.book-a-trip__tooltip-info {
+  color: #84829a;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.24;
+}
+
+.book-a-trip__tooltip-heading {
+  color: #080809;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.24;
+}
+
+.book-a-trip__tooltip-value {
+  color: #080809;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.24;
+}
+
+.book-a-trip__tooltip-value_accent {
+  color: #8a79df;
+}
+
+input[type='range'] {
+  width: 100%;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type='range']:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  border: none;
+  border-radius: 0;
+  background-color: #000;
+  cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 26px;
+  height: 16px;
+  margin-top: -3px;
+  border: 1px solid #000;
+  border-radius: 0;
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type='range']::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  border: none;
+  border-radius: 0;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+input[type='range']::-moz-range-thumb {
+  box-sizing: border-box;
+  width: 26px;
+  height: 16px;
+  border: 1px solid #000;
+  border-radius: 0;
+  background: #fff;
+  cursor: pointer;
 }
 
 .testimonials {
