@@ -538,33 +538,37 @@
 .book-a-trip__tooltip {
   position: absolute;
   right: 0;
-  bottom: 64px;
+  bottom: 68px;
   width: 263px;
+  border-radius: 18px;
   padding: 16px 25px 22px 20px;
+  box-shadow: 
+    0 1.85px 3.15px 0 rgba(0, 0, 0, 0.1),
+    0 8.15px 6.52px 0 rgba(0, 0, 0, 0.1),
+    0 20px 13px 0 rgba(0, 0, 0, 0.1),
+    0 38.52px 25.48px 0 rgba(0, 0, 0, 0.1),
+    0 64.81px 46.85px 0 rgba(0, 0, 0, 0.1),
+    0 100px 80px 0 rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  line-height: 1.24;
   background-color: #fff;
 }
 
 .book-a-trip__tooltip-info {
   color: #84829a;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.24;
 }
 
 .book-a-trip__tooltip-heading {
   margin-top: 6px;
   margin-bottom: 14px;
   color: #080809;
-  font-weight: 500;
   font-size: 18px;
-  line-height: 1.24;
 }
 
 .book-a-trip__tooltip-value {
   color: #080809;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.24;
 }
 
 .book-a-trip__tooltip-value_accent {
