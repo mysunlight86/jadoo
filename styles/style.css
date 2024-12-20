@@ -454,6 +454,7 @@
 .book-a-trip__card {
   border-radius: 26px;
   padding: 20px 24px 31px 25px;
+  box-shadow: 44px -59px 150px rgba(89, 177, 230, 0.8);
   font-weight: 500;
   line-height: 1.24;
   background-color: #fff;
