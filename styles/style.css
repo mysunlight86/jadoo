@@ -382,7 +382,7 @@
   padding: 0 140px 200px 186px;
 }
 
-.book-a-trip__left-column {
+.book-a-trip__steps {
   max-width: 511px;
 }
 
@@ -391,7 +391,7 @@
   margin-bottom: 31px;
 }
 
-.book-a-trip__steps {
+.book-a-trip__steps-list {
   display: flex;
   flex-direction: column;
   gap: 39px;
@@ -446,7 +446,7 @@
   margin-top: 4px;
 }
 
-.book-a-trip__right-column {
+.book-a-trip__information {
   position: relative;
   max-width: 485px;
   padding: 76px 115px 16px 0;
@@ -669,7 +669,7 @@ input[type="range"]::-ms-fill-lower {
   padding: 0 89px 96px 186px;
 }
 
-.testimonials__left-column {
+.testimonials__name {
   width: 409px;
 }
 
