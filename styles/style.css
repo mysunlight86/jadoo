@@ -694,6 +694,8 @@ input[type="range"]::-ms-fill-lower {
   display: flex;
   justify-content: space-between;
   gap: 66px;
+  width: 669px;
+  height: 356px;
 }
 
 .testimonials__arrows {
