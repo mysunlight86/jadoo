@@ -698,6 +698,54 @@ input[type="range"]::-ms-fill-lower {
   height: 356px;
 }
 
+.testimonials__messages {
+  position: relative;
+  list-style: none;
+}
+
+.testimonials__message {
+  position: absolute;
+  background-color: #fff;
+  color: #5e6282;
+}
+
+.testimonials__message_active {
+  top: 0;
+  left: 0;
+  width: 541px;
+  height: 279px;
+  padding: 62px 68px 34px 34px;
+}
+
+.testimonials__message_prev {
+  bottom: 0;
+  left: 87px;
+  z-index: -1;
+  width: 502px;
+  height: 232px;
+  padding: 16px 66px 22px 34px;
+}
+
+.testimonial {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 44px;
+  margin-bottom: 5px;
+}
+
+.author-about {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .testimonials__arrows {
   display: flex;
   flex-direction: column;
