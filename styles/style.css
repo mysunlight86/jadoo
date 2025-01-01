@@ -705,8 +705,8 @@ input[type="range"]::-ms-fill-lower {
 
 .testimonials__message {
   position: absolute;
-  background-color: #fff;
   color: #5e6282;
+  background-color: #fff;
 }
 
 .testimonials__message_active {
@@ -714,7 +714,17 @@ input[type="range"]::-ms-fill-lower {
   left: 0;
   width: 541px;
   height: 279px;
-  padding: 62px 68px 34px 34px;
+  padding: 62px 68px 34px 71px;
+}
+
+.testimonials__message_active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 68px;
+  height: 68px;
+  background-image: url(../images/MikeTaylor.png);
 }
 
 .testimonials__message_prev {
@@ -733,11 +743,11 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .testimonial-author {
+  margin-top: 44px;
+  margin-bottom: 5px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
-  margin-top: 44px;
-  margin-bottom: 5px;
 }
 
 .author-about {
