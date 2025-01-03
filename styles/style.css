@@ -680,6 +680,7 @@ input[type="range"]::-ms-fill-lower {
   height: 12px;
   border-radius: 50%;
   background-color: #e5e5e5;
+  cursor: pointer;
 }
 
 .navigation-dot_active {
@@ -814,6 +815,41 @@ input[type="range"]::-ms-fill-lower {
 
 .logos {
   padding: 0 181px 111px 186px;
+}
+
+.logos__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+}
+
+.logos__item {
+  width: 241px;
+  height: 86px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logos__item_axon {
+  background-image: url(../images/axon.png);
+}
+
+.logos__item_jetstar {
+  background-image: url(../images/jetstar.png);
+}
+
+.logos__item_expedia {
+  background-image: url(../images/expedia.png);
+}
+
+.logos__item_qantas {
+  background-image: url(../images/qantas.png);
+}
+
+.logos__item_alitalia {
+  background-image: url(../images/alitalia.png);
 }
 
 .subscribe {
