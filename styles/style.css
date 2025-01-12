@@ -723,7 +723,7 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .testimonials__message_active::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -34px;
   left: -37px;
@@ -814,7 +814,7 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .logos {
-  padding: 0 181px 111px 186px;
+  padding: 0 181px 111px 171px;
 }
 
 .logos__items {
@@ -861,7 +861,62 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .subscribe {
-  padding: 0 36px 96px 48px;
+  padding: 15px 135px 166px 135px;
+  background-image: url(../images/subscribe-stars.png),
+    url(../images/circles-top-right.png), url(../images/circles-bottom-left.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom 96px right 36px, top 15px right 135px,
+    left 48px bottom 166px;
+}
+
+.subscribe__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 74px;
+  max-width: 1170px;
+  border-radius: 129px 20px 20px 20px;
+  padding-top: 79px;
+  padding-bottom: 78px;
+  background-color: rgba(
+    223,
+    215,
+    249,
+    0.2
+  ); /*
+  background-image: url(../images/circles-bottom-left.png);
+  background-repeat: no-repeat;
+  background-position: left 19.32px bottom -114.18px; */
+}
+
+.subscribe__form::after {
+  content: "";
+  position: absolute;
+  top: -13px;
+  right: -20px;
+  width: 70px;
+  height: 70px;
+  background-image: url(../images/subscribe-send.png);
+}
+
+.subscribe__heading {
+  max-width: 881px;
+  color: #5e6282;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .footer {
