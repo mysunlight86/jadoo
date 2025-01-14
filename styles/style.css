@@ -948,5 +948,31 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .footer {
+  position: relative;
   padding: 0 194px 79px 186px;
+  overflow: hidden;
+  color: #5e6282;
+}
+
+.footer::after {
+  content: "";
+  position: absolute;
+  right: -363.94px;
+  bottom: -279.86px;
+  width: 478.94px;
+  height: 496.86px;
+  opacity: 0.4;
+  background-color: rgb(213, 174, 228, 0.8);
+  filter: blur(150px);
+  -webkit-filter: blur(150px);
+}
+
+.footer__content {
+  margin-bottom: 84px;
+}
+
+.footer__copyrights {
+  font-size: 14px;
+  line-height: 17.43px;
+  text-align: center;
 }
