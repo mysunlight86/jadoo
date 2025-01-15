@@ -945,6 +945,7 @@ input[type="range"]::-ms-fill-lower {
   font-size: 17px;
   line-height: 23.15px;
   background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  cursor: pointer;
 }
 
 .footer {
