@@ -17,8 +17,10 @@
   display: block;
   width: 115px;
 }
-.top-nav__logo-image {
+
+.logo-image {
   width: 100%;
+  margin: auto;
 }
 
 .top-nav__menu {
@@ -969,7 +971,27 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 82.5px;
   margin-bottom: 84px;
+}
+
+.footer__company {
+  max-width: 207px;
+}
+
+.footer__company-logo {
+  display: flex;
+  width: 152px;
+  height: 66px;
+  margin-bottom: 19px;
+}
+
+.footer__company-description {
+  font-size: 13px;
+  line-height: 16.19px;
 }
 
 .footer__copyrights {
