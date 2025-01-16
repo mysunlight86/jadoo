@@ -994,6 +994,42 @@ input[type="range"]::-ms-fill-lower {
   line-height: 16.19px;
 }
 
+.footer__social-networks {
+  display: flex;
+  gap: 25px;
+  margin: 21px 0 26px;
+}
+
+.footer__social-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.footer__social-logo_light {
+  width: 41px;
+  height: 41px;
+}
+
+.footer__outbound p {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 24.9px;
+}
+
+.footer__apps {
+  display: flex;
+  gap: 7px;
+}
+
+.footer__app {
+  width: 107px;
+  height: 35px;
+}
+
+.footer__app_small {
+  width: 100px;
+}
+
 .footer__copyrights {
   font-size: 14px;
   line-height: 17.43px;
