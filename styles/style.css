@@ -829,9 +829,6 @@ input[type="range"]::-ms-fill-lower {
 .logos__item {
   width: 241px;
   height: 86px;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .logos__item:hover {
@@ -842,23 +839,33 @@ input[type="range"]::-ms-fill-lower {
   cursor: pointer;
 }
 
-.logos__item_axon {
+.logos__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logos__link_axon {
   background-image: url(../images/axon.png);
 }
 
-.logos__item_jetstar {
+.logos__link_jetstar {
   background-image: url(../images/jetstar.png);
 }
 
-.logos__item_expedia {
+.logos__link_expedia {
   background-image: url(../images/expedia.png);
 }
 
-.logos__item_qantas {
+.logos__link_qantas {
   background-image: url(../images/qantas.png);
 }
 
-.logos__item_alitalia {
+.logos__link_alitalia {
   background-image: url(../images/alitalia.png);
 }
 
