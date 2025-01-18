@@ -1001,6 +1001,27 @@ input[type="range"]::-ms-fill-lower {
   line-height: 16.19px;
 }
 
+.footer__nav {
+  display: grid;
+  grid-template-columns: 108px 89px 114px;
+  gap: 14px 81.5px;
+}
+
+.footer__nav-heading {
+  margin: 21px 0 20px;
+  color: #080809;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26.15px;
+}
+
+.footer__nav-link {
+  color: #5e6282;
+  font-size: 18px;
+  line-height: 22.41px;
+  text-decoration: none;
+}
+
 .footer__social-networks {
   display: flex;
   gap: 25px;
